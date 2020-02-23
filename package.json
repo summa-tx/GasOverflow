@@ -1,0 +1,25 @@
+{
+  "name": "@summa-tx/GasOverflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "solium -d contracts/",
+    "lint:fix": "solium --fix -d contracts/",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "solium": "^1.2.4",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-plugin-verify": "^0.3.9"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.5.0"
+  }
+}
